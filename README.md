@@ -1,67 +1,28 @@
-# UIGen
+# Claude Code Course Notes
 
-AI-powered React component generator with live preview.
+This repository contains my notes while learning **Claude Code** and AI-assisted development workflows.
 
-## Prerequisites
+## Lessons
 
-- Node.js 18+
-- npm
+* 02 Adding Context
+* 03 Making Changes
+* 04 Controlling Context
+* 05 Custom Commands
+* 06 MCP Servers
+* 07 GitHub Integration
 
-## Setup
+## Topics Covered
 
-1. **Optional** Edit `.env` and add your Anthropic API key:
+* Context management
+* Planning and thinking modes
+* Custom command automation
+* MCP tool integrations
+* GitHub automation with Claude
 
-```
-ANTHROPIC_API_KEY=your-api-key-here
-```
+## Goal
 
-The project will run without an API key. Rather than using a LLM to generate components, static code will be returned instead.
+The goal of this repository is to document practical knowledge about using **Claude Code for modern development workflows**.
 
-2. Install dependencies and initialize database
+## Author
 
-```bash
-npm run setup
-```
-
-This command will:
-
-- Install all dependencies
-- Generate Prisma client
-- Run database migrations
-
-## Running the Application
-
-### Development
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
-## Usage
-
-1. Sign up or continue as anonymous user
-2. Describe the React component you want to create in the chat
-3. View generated components in real-time preview
-4. Switch to Code view to see and edit the generated files
-5. Continue iterating with the AI to refine your components
-
-## Features
-
-- AI-powered component generation using Claude
-- Live preview with hot reload
-- Virtual file system (no files written to disk)
-- Syntax highlighting and code editor
-- Component persistence for registered users
-- Export generated code
-
-## Tech Stack
-
-- Next.js 15 with App Router
-- React 19
-- TypeScript
-- Tailwind CSS v4
-- Prisma with SQLite
-- Anthropic Claude AI
-- Vercel AI SDK
+GitHub: nduc8868x-tech
